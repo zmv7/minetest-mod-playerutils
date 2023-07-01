@@ -183,7 +183,7 @@ core.register_chatcommand("jumph", {
 		return false, "Invalid jump height value"
 	end
 	player:set_physics_override({jump=jumph})
-	return true, "Speed value of "..nick.." set to "..jumph
+	return true, "Jump height value of "..nick.." set to "..jumph
 end})
 
 core.register_chatcommand("gravity", {
@@ -209,7 +209,7 @@ core.register_chatcommand("gravity", {
 		return false, "Invalid gravity value"
 	end
 	player:set_physics_override({gravity=grav})
-	return true, "Speed value of "..nick.." set to "..grav
+	return true, "Gravity value of "..nick.." set to "..grav
 end})
 
 core.register_chatcommand("stun", {
