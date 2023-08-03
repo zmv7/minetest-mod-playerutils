@@ -360,8 +360,8 @@ core.register_chatcommand("clearallinvs", {
 	return true, "All "..count.." inventories of "..nick.." cleared"
 end})
 
-core.register_chatcommand("invfuck",{
-  description = "Fuck up your or another player's inventories",
+core.register_chatcommand("zeroizeinv",{
+  description = "Zeroize your or another player's inventories",
   params = "[playername]",
   privs = {server=true},
   func = function(name,param)
@@ -374,5 +374,5 @@ core.register_chatcommand("invfuck",{
     for listname,list in pairs(inv:get_lists()) do
         inv:set_size(listname,0)
     end
-    return true, "Inventory of "..nick.." fucked up successfully"
+    return true, "Inventory of "..nick.." zeroized successfully"
 end})

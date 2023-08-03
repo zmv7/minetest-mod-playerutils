@@ -4,7 +4,7 @@ Chatcommand pack providing managing players' physics, size and more
 |-------------|-----------------|--------|-------------|
 | /clearallinvs | none / clearinv | \[playername] | Remove all items in your or another player's ALL inventories |
 | /clearinv | none / clearinv | \[playername] | Remove all items in your or another player's inventory |
-| /invfuck | server | \[playername] | Fuck up your or another player's inventories |
+| /zeroizeinv | server | \[playername] | Zeroize your or another player's inventories |
 | /gravity | physics_self / physics | \[playername] \[gravity] | Sets your or another player's gravity. Use with empty param to reset to default |
 | /jumph | physics_self / physics | \[playername] \[jump height] | Sets your or another player's jump height. Use with empty param to reset to default |
 | /speed | physics_self / physics | \[playername] \[speed] | Sets your or another player's movement speed. Use with empty param to reset to default |
